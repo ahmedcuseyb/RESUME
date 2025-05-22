@@ -1,4 +1,13 @@
 import Link from 'next/link';
+import Image from 'next/image';
+
+<Image 
+  src="/images/bicir.jpeg" 
+  alt="Profile" 
+  width={500}  // Add your image width
+  height={500}  // Add your image height
+  className="object-cover w-full h-full" 
+/>
 
 export default function Header() {
   return (
@@ -39,9 +48,11 @@ export default function Header() {
         {/* Right Side: Profile Image */}
         <div className="md:w-1/2 flex justify-center">
           <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-green-500">
-            <img
+            <Image
               src="/images/bicir.jpeg"  // Replace with your image path
-              alt="Lucius Meshach"
+              width={500}  // Replace with your image's width
+              height={500} // Replace with your image's height
+              alt="Bicir"
               className="object-cover w-full h-full"
             />
           </div>

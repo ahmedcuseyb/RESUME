@@ -1,4 +1,5 @@
 'use client';  // Ensure it's a client component
+import Image from 'next/image';
 
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaBootstrap, FaSass, FaGitAlt, FaPython } from 'react-icons/fa';
 
@@ -63,7 +64,7 @@ export default function TechStackLanguages() {
 
           {/* Django (using local image) */}
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 flex justify-center items-center">
-            <img src="/images/django-logo.svg" alt="Django" className="w-16 h-16" /> {/* Added width and height */}
+            <Image src="/images/django-logo.svg" alt="Django" className="w-16 h-16" /> {/* Added width and height */}
           </div>
         </div>
       </div>

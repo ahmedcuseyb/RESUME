@@ -1,9 +1,9 @@
 'use client'; // Ensure it's a client component
 
-import { FaWhatsapp, FaFacebookMessenger, FaPhoneAlt, FaArrowUp, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaWhatsapp, FaFacebookMessenger, FaPhoneAlt, FaArrowUp, FaLinkedin } from 'react-icons/fa';
 
 export default function Footer() {
-  let currentYear = new Date().getFullYear();
+  const currentYear = new Date().getFullYear();
 
   // Scroll to top function
   const scrollToTop = () => {
