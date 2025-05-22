@@ -1,5 +1,4 @@
 import Footer from "./Footer";
-import HomeSection from "./HomeSection";
 import About from "./About";
 import Contact from "./Contact";
 import Header from "./Header";
