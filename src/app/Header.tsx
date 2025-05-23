@@ -31,7 +31,7 @@ export default function Header() {
         {/* Left Side: Text and Buttons */}
         <div className="text-center md:text-left md:w-1/2 mb-8 md:mb-0">
           <h1 className="text-5xl font-extrabold mb-4">Ahmed Bicir</h1>
-          <h2 className="text-3xl text-green-400 font-semibold mb-6">I'm a Developer</h2>
+          <h2 className="text-3xl text-green-400 font-semibold mb-6">I&apos;m a Developer</h2> {/* Fixed the single quote here */}
           <p className="text-lg mb-8">
             I specialize in creating modern and responsive web applications using React.js/NextJs, ensuring seamless integration with Django on the backend. I am skilled in writing clean, secure, and scalable code with TypeScript, and have experience developing API integrations to enhance the functionality of applications.
           </p>

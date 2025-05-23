@@ -64,7 +64,8 @@ export default function TechStackLanguages() {
 
           {/* Django (using local image) */}
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 flex justify-center items-center">
-            <Image src="/images/django-logo.svg" alt="Django" className="w-16 h-16" /> {/* Added width and height */}
+            <Image src="/images/django-logo.svg" alt="Django"  width={500}  // Replace with your image's width
+            height={500} /> {/* Added width and height */}
           </div>
         </div>
       </div>
